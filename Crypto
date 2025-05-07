@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CryptoSignals Pro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white">
+  <header class="p-6 bg-gray-800 shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">CryptoSignals Pro</h1>
+      <a href="#pricing" class="bg-green-500 px-4 py-2 rounded hover:bg-green-600">Тарифы</a>
+    </div>
+  </header>
+
+  <section class="py-16 text-center">
+    <h2 class="text-4xl font-bold mb-4">Профессиональные крипто-сигналы</h2>
+    <p class="text-lg text-gray-300">Получайте точные сигналы для торговли на Binance, Bybit и других биржах. Успешно с 2021 года.</p>
+  </section>
+
+  <section class="bg-gray-800 py-12">
+    <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+      <div>
+        <h3 class="text-xl font-semibold mb-2">90%+ точность</h3>
+        <p class="text-gray-400">Сигналы с высоким уровнем подтверждения</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Опытная команда</h3>
+        <p class="text-gray-400">Более 4 лет на рынке криптотрейдинга</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Поддержка 24/7</h3>
+        <p class="text-gray-400">Ответим на все вопросы в Telegram</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="py-16">
+    <h2 class="text-3xl font-bold text-center mb-10">Тарифы</h2>
+    <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div class="bg-gray-800 p-6 rounded shadow">
+        <h3 class="text-xl font-semibold mb-4">1 неделя</h3>
+        <p class="text-3xl font-bold mb-4">$29</p>
+        <p class="mb-4 text-gray-400">Ежедневные сигналы + поддержка</p>
+        <a href="#contact" class="bg-green-500 px-4 py-2 rounded hover:bg-green-600">Заказать</a>
+      </div>
+      <div class="bg-gray-800 p-6 rounded shadow border-2 border-green-500">
+        <h3 class="text-xl font-semibold mb-4">1 месяц</h3>
+        <p class="text-3xl font-bold mb-4">$99</p>
+        <p class="mb-4 text-gray-400">Полный доступ + VIP-сигналы</p>
+        <a href="#contact" class="bg-green-500 px-4 py-2 rounded hover:bg-green-600">Заказать</a>
+      </div>
+      <div class="bg-gray-800 p-6 rounded shadow">
+        <h3 class="text-xl font-semibold mb-4">3 месяца</h3>
+        <p class="text-3xl font-bold mb-4">$249</p>
+        <p class="mb-4 text-gray-400">Экономия + индивидуальный подход</p>
+        <a href="#contact" class="bg-green-500 px-4 py-2 rounded hover:bg-green-600">Заказать</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-16 bg-gray-700 text-center">
+    <h2 class="text-3xl font-bold mb-6">Свяжитесь с нами</h2>
+    <p class="mb-4">Пишите в Telegram: <a href="https://t.me/yourusername" class="text-green-400">@yourusername</a></p>
+    <p class="text-gray-400">Или оставьте заявку через форму ниже</p>
+    <form class="mt-6 max-w-md mx-auto">
+      <input type="text" placeholder="Ваш Telegram" class="w-full p-3 rounded bg-gray-800 text-white mb-4">
+      <textarea placeholder="Сообщение или вопрос" class="w-full p-3 rounded bg-gray-800 text-white mb-4"></textarea>
+      <button class="bg-green-500 px-6 py-2 rounded hover:bg-green-600">Отправить</button>
+    </form>
+  </section>
+
+  <footer class="text-center py-6 text-gray-500 bg-gray-900 text-sm">
+    &copy; 2025 CryptoSignals Pro. Все права защищены.
+  </footer>
+</body>
+</html>
